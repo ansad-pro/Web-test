@@ -5,7 +5,7 @@ import cors from 'cors'
 const app = express()
 app.use(cors())
 
-const YT_KEY = 'YOUR_YOUTUBE_API_KEY'
+const YT_KEY = 'AIzaSyDKw9bugNNcvx14TR-Cqcr54116lwZzTPo'
 
 app.get('/api/search/:query', async (req, res) => {
   try {
